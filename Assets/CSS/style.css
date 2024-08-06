@@ -12,7 +12,6 @@ body {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  z-index: -1;
   box-sizing: border-box;
   margin: 0;
   padding: 1rem;

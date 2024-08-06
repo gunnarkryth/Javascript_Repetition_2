@@ -1,3 +1,13 @@
+function build_markup() {
+  window.onload = function () {
+    create_click_counter_button();
+    create_validation_field();
+    create_colors();
+  };
+}
+
+build_markup();
+
 // OPGAVE 1
 var a = 1;
 var b = 2;
@@ -77,13 +87,3 @@ function mouse_over(event) {
   const color = random_color();
   event.target.style.backgroundColor = color;
 }
-
-function build_markup() {
-  window.onload = function () {
-    create_click_counter_button();
-    create_validation_field();
-    create_colors();
-  };
-}
-
-build_markup();
